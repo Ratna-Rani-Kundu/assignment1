@@ -14,10 +14,20 @@ p{
 .link-button{
     text-decoration: none;
     color: white;
-    border-radius: 45%;
-    background-image: linear-gradient(orange,tomato);
-    padding: 2%;
-
-
-
+    border-radius:2em;
+    background-image: linear-gradient( to right, orange,tomato);
+    padding: 1%;
+}
+.flexible-container{
+    display: flex;
+}
+.flexible-container img{
+    width: 80%;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    height: 450px;
+    width: 350px;
 }
