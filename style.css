@@ -98,7 +98,17 @@ p{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
+.social-media{
+    width: 1450px;
+    
+    
+}
+.subscribers{
+    width: 30%;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: 150px;
+}
 footer{
     background-color: rgba(0, 0, 0, 0.678);
     text-align: center;
