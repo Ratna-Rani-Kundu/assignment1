@@ -1,9 +1,14 @@
 body{
     font-family: 'Montserrat', sans-serif;
 font-family: 'Noto Sans JP', sans-serif;
+margin: 0;
+
 }
 h1{
     font-size: 50px;
+}
+h2{
+    text-align: center;
 }
 p{
     margin-bottom: 50px;
@@ -16,18 +21,44 @@ p{
     color: white;
     border-radius:2em;
     background-image: linear-gradient( to right, orange,tomato);
-    padding: 1%;
+    padding: 20px 34px;
 }
 .flexible-container{
     display: flex;
+    
 }
 .flexible-container img{
     width: 80%;
 }
 .half-width{
     width: 50%;
+    padding-left: 1%;
 }
 .half-width img{
     height: 450px;
     width: 350px;
+}
+.about-me{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+   
+    
+}
+.recipe p,h3{
+    text-align: center;
+}
+.recipe img{
+    height: 200px;
+    width: 350px;
+    margin-left: 80px;
+    margin-top: 35px;
+}
+.shadow{
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 5%;
+    padding-right: 5%;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.678);
+    text-align: center;
 }
