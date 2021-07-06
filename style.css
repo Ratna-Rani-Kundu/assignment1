@@ -2,7 +2,27 @@ body{
     font-family: 'Montserrat', sans-serif;
 font-family: 'Noto Sans JP', sans-serif;
 margin: 0;
-
+}
+.communication{
+    font-size: larger;
+    height: 50px;
+    background-color: lightcoral;
+    padding-bottom: 40px;
+}
+.header{
+ padding-top: 30px;
+}
+.info{
+    height: 25px;
+    width:350px;
+    border-radius: 2em;
+   
+}
+#btn{
+    border-radius: 2em;
+    padding: 5px 30px;
+    background-image: linear-gradient(orange ,blue);
+    color: white;
 }
 h1{
     font-size: 50px;
@@ -16,6 +36,11 @@ h3{
 }
 p{
     margin-bottom: 50px;
+}
+.order-now{
+    padding-left: 30px;
+    margin-bottom: 100px;
+    margin-top:100px ;
 }
 .orange-highlight{
     color: orangered;
@@ -42,9 +67,15 @@ p{
     height: 450px;
     width: 350px;
 }
+#width-reset{
+    width: 70%;
+    margin-left: 10%;
+}
 .about-me{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
    
     
 }
@@ -55,8 +86,8 @@ p{
 .recipe img{
     height: 200px;
     width: 350px;
-    margin-left: 20px;
-    margin-top: 35px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 .shadow{
     width: 30%;
@@ -64,10 +95,13 @@ p{
     border-radius: 5%;
     padding-right: 1%;
     margin-left: 2%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
+
 footer{
     background-color: rgba(0, 0, 0, 0.678);
     text-align: center;
     height: 150px;
-   margin-bottom: 30px;
+    padding-top: 50px;
 }
